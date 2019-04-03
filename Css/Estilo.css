@@ -1,0 +1,210 @@
+body
+{
+	margin-left: 15%;
+	margin-right: 15%;
+	padding:0;
+	margin-top:0;
+	margin-bottom:0;
+	background: #313D52;
+}
+.header
+{
+	width: 100%;
+	height: 200px;
+}
+
+}
+.menu
+{
+	width: 100%;
+	height: 50px;
+	background: gray;
+}
+ul {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+.content
+{
+	width: 73%;
+	height: auto;
+	position: relative;
+	float: left;
+}
+.content2
+{
+	width: 25%;
+	height: 100%;
+	position: relative;
+	float: right;
+}
+
+.footer
+{
+	width: 100%;
+	height: 50px;
+	background: black;
+	float: left;
+	position: relative;
+}
+.image
+{
+	border-radius: 18px;
+	margin:10px;
+	background: gray;
+	width: auto;
+	height: 300px;
+	position: relative;
+}
+.text
+{
+	padding: 10px;
+	margin:10px;
+	width: auto;
+	height: auto;
+	position: relative;
+	text-align: justify;
+	color: #fff;
+}
+.textft
+{
+	text-align: center;
+}
+.mySlides
+{
+	border-radius: 18px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	float: left;
+}
+.right
+{
+	background: rgba(0, 0, 0, .5);
+	float: right;
+	border: 0;
+	width: 40px;
+	height: 40px;
+	position: relative;
+	margin-top: 140px; 
+	z-index: 1;
+
+}
+.left
+{
+	background: rgba(0, 0, 0, .5);
+	float: left;
+	width: 40px;
+	height: 40px;
+	border: 0;
+	position: relative;
+	margin-top: 140px;  
+	z-index: 1;
+}
+
+.submenu{
+	position: absolute;
+	background: #333;
+	text-align: right;
+	width: 10%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	text-align: left;
+	color: cyan;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+	z-index: 1;
+}
+.mySlide
+{
+	border-radius: 18px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	float: left;
+}
+.imge
+{
+	width: auto;
+	height: 100px;
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.btn{
+	border:4px solid #f2f2f2;
+	border-radius:10px;
+	width: 80px;
+	transition:background 1s,color 1s;
+}
+.btn:hover{
+	background:black;
+	color: white  
+}
+.btn-1{
+	font:bold;
+	text-decoration:none;
+}
+.logo
+{
+	width: 200px;
+	margin-left: 40%;
+	margin-right: 40%;
+	height: auto;
+	position: relative;
+	padding-top: 10px
+}
+.mr
+{
+	margin-right:  40%;
+}
+.icon
+{	
+	margin-left:20px;
+	width: 30px;
+	height: 65%;
+	float: right;
+	position: relative;
+	padding-top:10px;
+}
+
+
+.movies {
+	border-radius: 18px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	float: left;
+}
