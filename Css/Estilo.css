@@ -204,7 +204,14 @@ li:hover .submenu{
 .movies {
 	border-radius: 18px;
 	width: 100%;
-	height: 100%;
-	position: absolute;
-	float: left;
+	clear: both;
+}
+
+.op img{
+	width: 300px;
+
+}
+
+hr{
+	border: 1px solid #0056b2;
 }
