@@ -2,7 +2,6 @@
 {
 
 	$("#ClickF").click(function(){
-		/*Mostramos el Formulario mediante este efecto*/
     $("#FormContacto").slideToggle("slow");
 
    								});
